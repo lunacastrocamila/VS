@@ -6,6 +6,8 @@ using System.Linq;
 using System.Web;
 using System.Collections.Generic;
 using ExamenFinalPGIIVacunas.CapaDatos;
+using ExamenFinalPGIIVacunas.CapaEntidades;
+
 
 namespace ExamenFinalPGIIVacunas.CapaLogica
 {
