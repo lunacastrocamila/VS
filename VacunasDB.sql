@@ -10,14 +10,6 @@ CREATE TABLE paciente (
     fecha_nacimiento DATE NOT NULL
 );
 
-INSERT INTO paciente (nombre, dni, fecha_nacimiento) VALUES
-('María Fernández', '12345678', '1990-04-12'),
-('Carlos Rodríguez', '87654321', '1985-11-05'),
-('Ana Gómez', '45678912', '1998-06-20'),
-('Luis Morales', '78912345', '2000-02-28'),
-('Sofía Herrera', '32165498', '1993-09-10');
-
-
 
 CREATE TABLE vacuna (
     id_vacuna INT IDENTITY(1,1) PRIMARY KEY,
